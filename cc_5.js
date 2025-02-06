@@ -27,3 +27,19 @@ let order = {
 //Call the method and log the details.
 order.displayOrder();
 
+
+//Task 3: Shopping Cart - Array Manipulation
+//Declare an array cartItems with three product names.
+let cartItems = ["Shampoo", "Conditioner", "Body Wash"];
+//Add a new product to the cart using .push().
+cartItems.push("Sponge");
+//Remove the last item using .pop().
+cartItems.pop();
+//Add an item at the beginning using .unshift().
+cartItems.unshift("Body Scrub");
+//Remove the first item using .shift().
+cartItems.shift();
+//Log the final array to the console.
+console.log("Updated Shopping Cart: ", cartItems);
+
+
